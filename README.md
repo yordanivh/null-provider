@@ -27,8 +27,15 @@ In the code itself we create two resources first one is `example` and second one
  ```
  
  * Initialize the project ( Terraform will download provider plugins)
+ 
  ```
  terraform init
+ ```
+ 
+ * Plan the operation so that you see what actions will taken
+ 
+ ```
+ terraform plan
  ```
  
  * Run Terraform apply to create the resources
