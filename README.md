@@ -49,7 +49,8 @@ In the code itself we create two resources first one is `example` and second one
  terraform destroy
  ```
 
-## Sample run output. What is expected as an outpuf of performing each terrafrom command
+## Sample run output. 
+## What is expected as an outpuf of performing each terrafrom command
 
 1. When you run terraform init provider plugins will initialize and plugins will be downloaded.The end result should look like this.
 
