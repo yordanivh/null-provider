@@ -7,7 +7,7 @@ The null provider is used to test you code. It is used instead of the cloud prov
 
 ## What this code does
 
-In the code itself we create two resources first one is `example` and second one is `example2`, by using the triggers argument each time when you do terraform apply the uuid of the resource will change and it will recreate the resource again. You can test this by running `terraform apply` twice and you will see that on the second time only the `example2` resource will be re-created.
+In the code itself we create two resources first one is `example` and second one is `example2`, by using the `triggers` argument each time when you do `terraform apply` the uuid of the resource will change and it will recreate the resource again. You can test this by running `terraform apply` twice and you will see that on the second time only the `example2` resource will be re-created.
 
 ## How to use the code in this repo
 
@@ -35,4 +35,13 @@ In the code itself we create two resources first one is `example` and second one
  ```
  terraform apply
  ```
+
+* To destroy the created resources
+
+ ```
+ terraform destroy
+ ```
+ 
+* Please check the sample_run.md file for what to expect as output of these operations
+
 
