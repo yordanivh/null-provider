@@ -1,4 +1,4 @@
-resource "null_resource" "example2" {
+resource "null_resource" "example1" {
   triggers = {
     uuid=uuid()
   }
